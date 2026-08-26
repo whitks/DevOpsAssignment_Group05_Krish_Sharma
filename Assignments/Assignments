@@ -1,0 +1,124 @@
+# Development Assignment
+
+## Assignment 1 – Git Repository
+
+### Objective
+
+Create and manage a GitHub repository.
+
+### Tasks
+
+1. Create a repository.
+2. Add README.md.
+3. Add project files.
+4. Commit changes.
+5. Push changes to GitHub.
+
+### Commands
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git push
+
+---
+
+# Assignment 2 – Git Branching
+
+### Objective
+
+Understand feature-based development.
+
+### Tasks
+
+1. Create a feature branch.
+2. Add a new feature.
+3. Commit changes.
+4. Push the branch.
+5. Create Pull Request.
+6. Review changes.
+7. Merge into main.
+
+---
+
+# Assignment 3 – CI
+
+### Objective
+
+Create an automated CI pipeline.
+
+### Pipeline
+
+Code
+↓
+Build
+↓
+Test
+↓
+Result
+
+### Tasks
+
+1. Create GitHub Actions workflow.
+2. Trigger workflow on push.
+3. Trigger workflow on Pull Request.
+4. Validate project files.
+5. Check workflow result.
+
+---
+
+# Assignment 4 – Docker
+
+### Objective
+
+Containerize the application.
+
+### Tasks
+
+1. Create Dockerfile.
+2. Build Docker image.
+3. Run Docker container.
+4. Test application.
+5. Stop the container.
+
+### Commands
+
+docker build -t devops-app .
+
+docker run -p 8080:80 devops-app
+
+---
+
+# Assignment 5 – Complete DevOps Workflow
+
+Implement:
+
+Developer
+↓
+GitHub
+↓
+CI
+↓
+Testing
+↓
+Docker
+↓
+Deployment
+↓
+Monitoring
+
+## Learning Outcomes
+
+After completing these assignments, students should understand:
+
+- Git
+- GitHub
+- Branching
+- Pull Requests
+- CI/CD
+- Testing
+- Docker
+- DevOps workflow
