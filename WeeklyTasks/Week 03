@@ -1,0 +1,20 @@
+# Week 03 – CI/CD
+
+## Objective
+
+Understand automated software integration and testing.
+
+## Tasks
+
+- [ ] Learn CI/CD.
+- [ ] Create GitHub Actions workflow.
+- [ ] Trigger workflow on push.
+- [ ] Trigger workflow on Pull Request.
+- [ ] Validate application files.
+- [ ] Check successful pipeline.
+- [ ] Test pipeline failure.
+- [ ] Fix the failure.
+
+## Deliverable
+
+Working CI workflow.
