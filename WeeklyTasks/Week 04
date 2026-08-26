@@ -1,0 +1,32 @@
+# Week 04 – Docker & Deployment
+
+## Objective
+
+Learn application containerization.
+
+## Tasks
+
+- [ ] Install Docker.
+- [ ] Check Docker version.
+- [ ] Create Dockerfile.
+- [ ] Build image.
+- [ ] Check image.
+- [ ] Run container.
+- [ ] Test application.
+- [ ] Stop container.
+
+## Commands
+
+docker --version
+
+docker build -t devops-app .
+
+docker images
+
+docker run -p 8080:80 devops-app
+
+docker ps
+
+## Deliverable
+
+Working Docker container and documentation.
