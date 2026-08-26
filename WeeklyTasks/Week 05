@@ -1,0 +1,50 @@
+# Week 05 – Kubernetes Basics
+
+## Objective
+
+Learn container orchestration and deployment management.
+
+## Tasks
+
+- [ ] Understand Kubernetes architecture.
+- [ ] Install Minikube or use kind for local cluster.
+- [ ] Learn about Pods, Services, and Deployments.
+- [ ] Create a basic Pod YAML manifest.
+- [ ] Deploy an application using a Deployment.
+- [ ] Expose the application using a Service.
+- [ ] Scale the deployment.
+- [ ] Check cluster status with kubectl get nodes.
+
+## Commands
+
+minikube start
+
+kubectl cluster-info
+
+kubectl get nodes
+
+kubectl get pods
+
+kubectl get services
+
+kubectl create deployment my-app --image=nginx
+
+kubectl expose deployment my-app --port=80 --type=NodePort
+
+kubectl scale deployment my-app --replicas=3
+
+kubectl delete deployment my-app
+
+minikube stop
+
+## Deliverable
+
+Running Kubernetes deployment with a exposed service.
+
+## Key Concepts
+
+- Pod: Smallest deployable unit in Kubernetes.
+- Service: Exposes a set of Pods as a network service.
+- Deployment: Manages replica sets and provides declarative updates.
+- Node: A worker machine in the Kubernetes cluster.
+- Cluster: A set of nodes managed by Kubernetes.
