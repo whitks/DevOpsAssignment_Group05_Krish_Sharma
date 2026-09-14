@@ -1,0 +1,8 @@
+# DevOpsAssignment_Group05
+The daily DevOps Git workflow follows a linear sequence to move code from local development to production pipelines:
+
+git clone: Creates a local copy of a remote repository. 
+git add .: Stages all new and changed files for the next commit. 
+git commit -m: Saves the staged changes with a descriptive message. 
+git push -u origin: Uploads local commits to the remote repository and sets upstream tracking. 
+git pull: Fetches and merges the latest changes from the remote repository into the local branch. 
