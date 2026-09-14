@@ -278,7 +278,8 @@ Git and GitHub work together, but they are not the same thing.
 
 The local repository exists, but it is not connected to GitHub.
 
-### Solutionhfgdh
+### Solution
+
 
 
 A
