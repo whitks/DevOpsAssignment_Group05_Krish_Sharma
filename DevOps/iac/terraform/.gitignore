@@ -1,0 +1,13 @@
+# Terraform — never commit these
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl.tmp
+crash.log
+override.tf
+override.tf.json
+terraform.rc
+# Local sensitive vars
+terraform.tfvars
+*.auto.tfvars
+!.terraform.example.tfvars
