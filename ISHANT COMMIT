@@ -6,3 +6,26 @@ git add .: Stages all new and changed files for the next commit.
 git commit -m: Saves the staged changes with a descriptive message. 
 git push -u origin: Uploads local commits to the remote repository and sets upstream tracking. 
 git pull: Fetches and merges the latest changes from the remote repository into the local branch. 
+
+
+Core CLI Commands
+
+opencode [project]: Launches the interactive Text User Interface (TUI) in the specified directory. 
+opencode run [message]: Executes a one-shot, non-interactive prompt and exits; supports flags like --continue or --session to resume previous contexts. 
+opencode serve: Starts a headless HTTP API server for remote access. 
+opencode web: Launches a headless server with a web-based UI. 
+Management and Configuration
+
+opencode auth: Manages provider credentials and login flows (e.g., opencode auth login --provider anthropic). 
+opencode models [provider]: Lists available LLM models, optionally filtered by provider.
+opencode mcp: Manages Model Context Protocol servers, including adding, listing, and authenticating connections. 
+opencode session: Lists, deletes, or manages conversation history and IDs. 
+opencode upgrade: Updates OpenCode via various package managers (npm, brew, curl, etc.). 
+TUI Slash Commands
+Inside the interactive interface, users can type / to access built-in shortcuts:
+
+/init: Generates or updates AGENTS.md for project context. 
+/help: Displays available commands and keybindings. 
+/share: Generates a public URL for the current session. 
+/undo / /redo: Reverts or re-applies the agent's last actions. 
+/connect: Manages model provider connections. 
