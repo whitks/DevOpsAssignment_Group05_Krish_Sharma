@@ -1,0 +1,9 @@
+The core principles include:
+
+Collaboration and Shared Responsibility: Breaking down silos between development, operations, and quality assurance teams to foster a culture of shared accountability and continuous communication throughout the entire software lifecycle. 
+Automation: Automating repetitive tasks such as building, testing, and deployment to reduce human error, increase efficiency, and enable faster, more reliable software releases. 
+Continuous Integration and Continuous Deployment (CI/CD): Frequently integrating code changes into a shared repository and automatically deploying them to production environments to enable rapid feedback and iterative improvement. 
+Infrastructure as Code (IaC): Managing and provisioning infrastructure through machine-readable definition files rather than physical hardware configuration, ensuring consistency, version control, and repeatability. 
+Monitoring and Feedback: Continuously monitoring application performance and system health to gather real-time data, detect issues quickly, and drive continuous improvement based on actual user and system feedback. 
+Security (DevSecOps): Embedding security practices directly into the development and operational workflows to identify and mitigate vulnerabilities early in the process rather than as an afterthought. 
+Continuous Improvement: Adopting a mindset of ongoing learning and optimization, where teams regularly review processes, embrace failure as a learning opportunity, and refine workflows to eliminate waste and increase value. 
